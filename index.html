@@ -7,10 +7,14 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com"> 
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
 	<link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap" rel="stylesheet">
-	<title>Message on the Rock</title>
+	<title>Fevecal Telemarketing</title>
 </head>
 <body>
 	<style>
+		body {
+			font-family: 'PT Serif', serif;
+		}
+
 		.container {
 			padding: 0px 20px;
 		}
@@ -20,10 +24,11 @@
 			width: 100%;
 			position: fixed;
 			color: white;
-			background: #191919;
+			background-image: linear-gradient(to right, red , #FFA500);
 		}
 
 		.nav-link {
+			font-family: arial;
 			border: 0.15rem solid white;
 			font-weight: 700;
 			color: white;
@@ -35,9 +40,6 @@
 			color: white;
 		}
 
-		.navbar-brand {
-			font-family: 'PT Serif', serif;
-		}
 
 		.button-p {
 			display: inline-block;
@@ -55,25 +57,34 @@
 			color: white;
 		}
 
-		section {
+		.main-section {
 			margin: 0;
 			color: black;
-			font-family: 'PT Serif', serif;
 			padding: 250px 0px;
 		}
 
 		.image {
-			background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('riot.jpg');
+			background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('office.jpg');
 			background-repeat: no-repeat;
 			background-size: cover;
 			width: 100%;
 			color: white;
 		}
+
+		.secondary-section {
+			font-family: arial;
+			padding: 6rem 0rem;
+		}
+
+		h2 h4 {
+			font-weight: 700;
+		}
+
 	</style>
 	<header>
 		<nav class="navbar navbar-dark">
 			<div class="container">
-				<a class="navbar-brand">Message on the Rock</a>
+				<a class="navbar-brand">Fevecal</a>
 				<ul class="navbar-nav">
 					<li class="nav-item">
 						<a class="nav-link" href="#">Menu</a>
@@ -82,16 +93,33 @@
 			</div>
 		</nav>
 	</header>
-	<section class="image">
+	<section class="main-section image">
 		<div class="container">
 			<div class="">
-				<h1>Future of News</h1>
-				<h4>Welcome to what we call the future of news</h4>
-				<a class="button-p" href="#">Hire Us</a>
+				<h1>Outsource your call agents from Belize!</h1>
+				<h4>Your business needs more agents and we’re here, hire us!</h4>
+				<a class="button-p" href="#">Hire Agents</a>
 			</div>
 		</div>
 	</section>
-
+	<section class="secondary-section">
+		<div style="text-align: center;" class="container">
+			<div style="margin-bottom: 4rem;" class="row">
+				<h2 class="">Services</h2>
+				<p>We believe we are raising the standard for what virtual assistance is. With some of the most cutting edge audio technology, alongside values that we hold dear to our hearts, we are able to deliver quality telemarketing for countries of native English-speaking customers. You can find all of the services we offer below.</p>
+			</div>
+			<div class="row">
+				<div class="col">
+					<h4>Appointment Setting</h4>
+					<p>We have call agents ready to do appointment setting for your business.</p>
+				</div>
+				<div class="col">
+					<h4>Cold Calling</h4>
+					<p>This is the service high on our list as requested by most of our current clients.</p>
+				</div>
+			</div>
+		</div>
+	</section>
 	<script type="text/javascript" href="bootstrap.js"></script>
 </body>
 </html>
