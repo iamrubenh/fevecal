@@ -39,27 +39,36 @@
 			font-family: 'PT Serif', serif;
 		}
 
-		.content {
-			font-family: 'PT Serif', serif;
-			padding-top: 300px;
-			padding-bottom: 300px;
-			color: black;
-		}
-
 		.button-p {
+			display: inline-block;
+			margin-top: 1rem;
 			font-family: arial;
 			text-decoration: none;
-			border: 0.15rem solid black;
+			border: 0.15rem solid white;
 			font-weight: 700;
-			color: black;
+			color: white;
 			padding: 10px 20px;
 			border-radius: 4rem;
 		}
 
 		.button-p:hover {
-			color: black;
+			color: white;
 		}
 
+		section {
+			margin: 0;
+			color: black;
+			font-family: 'PT Serif', serif;
+			padding: 250px 0px;
+		}
+
+		.image {
+			background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('riot.jpg');
+			background-repeat: no-repeat;
+			background-size: cover;
+			width: 100%;
+			color: white;
+		}
 	</style>
 	<header>
 		<nav class="navbar navbar-dark">
@@ -72,21 +81,16 @@
 				</ul>
 			</div>
 		</nav>
-		<section class="">
-			<div class="container">
-				<div class="content">
-					<h1>Future of News</h1>
-					<h4>Hello! This is the code that we made for the people that we love</h4><br>
-					<a class="button-p" href="#">Hire Agents</a>
-				</div>
-			</div>
-		</section>
-		<section class="">
-			<div class="container">
-				<a></a>
-			</div>
-		</section>
 	</header>
+	<section class="image">
+		<div class="container">
+			<div class="">
+				<h1>Future of News</h1>
+				<h4>Welcome to what we call the future of news</h4>
+				<a class="button-p" href="#">Hire Us</a>
+			</div>
+		</div>
+	</section>
 
 	<script type="text/javascript" href="bootstrap.js"></script>
 </body>
