@@ -24,13 +24,12 @@
 }
 
 .menu-button {
-    font-weight: 700;
     color: white;
-    background-color: transparent;
-    border: 2px solid white;
-    border-radius: 5rem;
-    padding: 10px 30px;
+    text-decoration: none;
 }
 
+.menu-setting {
+    border: 2px solid white;
+}
 
 
