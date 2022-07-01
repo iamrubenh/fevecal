@@ -8,14 +8,17 @@
 	<title>Fevecal Telemarketing</title>
 </head>
 <body>
-	<nav class="navbar navbar-expand-lg navbar-dark bg-green fixed-top">
-		<div class="container px-5">
+	<nav class="navbar navbar-expand-sm navbar-dark bg-green fixed-top">
+		<div class="container px-4">
 			<a class="navbar-brand">Fevecal</a>
-			<ul class="navbar-nav">
-				<li class="nav-item">
-					<a class="nav-link" href="#">Menu</a>
-				</li>
-			</ul>
+                <button class="menu-button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive">Menu</button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
 		</div>
 	</nav>
     <header class="bg-image text-white">
@@ -25,6 +28,7 @@
             <a class="btn btn-lg btn-green rounded-pill border-2" href="#about">Hire Agents</a>
         </div>
     </header>
-	<script type="text/javascript" href="bootstrap.js"></script>
+    <script src="bootstrap.bundle.min.js"></script>
+	<script src="scripts.js"></script>
 </body>
 </html>
