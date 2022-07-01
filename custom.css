@@ -1,0 +1,24 @@
+/* -- Custom image background -- */
+.bg-image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('office.jpg');
+}
+
+/* Background Color - Green (navbar) */
+.bg-green {
+    color: white;
+    background-image: linear-gradient(to right, #0BDA51, #2AAA8A);
+}
+
+.btn-green {
+    color: #fff;
+    background-image: linear-gradient(to right, #0BDA51, #2AAA8A);
+    border: none;
+  }
+  .btn-green:hover {
+    color: #fff;
+    background-color: #0b5ed7;
+    border-color: #0a58ca;
+  }
