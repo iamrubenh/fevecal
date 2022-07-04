@@ -1,9 +1,11 @@
 /* -- Custom image background -- */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css");
+
 .bg-image {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('office.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, 0.5)), url('office.jpg');
 }
 
 /* Background Color - Green (navbar) */
@@ -15,12 +17,10 @@
 .btn-green {
     color: #fff;
     background-image: linear-gradient(to right, #0BDA51, #2AAA8A);
-    border: none;
 }
 .btn-green:hover {
     color: #fff;
     background-color: #0b5ed7;
-    border-color: #0a58ca;
 }
 
 .menu-button {
